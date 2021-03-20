@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+body {
+  background: url(../img/gymsec.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+}
+/* table {
+  width: 75%;
+  margin: 50px 200px;
+  border: 2px solid white;
+  color: white;
+  border-spacing: 0;
+}
+th,
+td {
+  text-align: center;
+  border: 2px solid black;
+}
+tr:hover {
+  transform: scale(1.05);
+  background-color: black;
+  font-weight: bolder;
+  font-size: 20px;
+} */
+body {
+  font-family: autowide;
+  color: black;
+}
+
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#h2 {
+  font-size: 36px;
+  margin: 20px 0;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+#h2 small {
+  font-size: 0.5em;
+}
+
+.responsive-table li {
+  border-radius: 3px;
+  padding: 25px 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.responsive-table .table-header {
+  background-color: #95a5a6;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.responsive-table .table-row {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+}
+.responsive-table .col-1 {
+  flex-basis: 10%;
+}
+.responsive-table .col-2 {
+  flex-basis: 40%;
+}
+.responsive-table .col-3 {
+  flex-basis: 25%;
+}
+.responsive-table .col-4 {
+  flex-basis: 25%;
+}
+@media all and (max-width: 767px) {
+  .responsive-table .table-header {
+    display: none;
+  }
+  .responsive-table li {
+    display: block;
+  }
+  .responsive-table .col {
+    flex-basis: 100%;
+  }
+  .responsive-table .col {
+    display: flex;
+    padding: 10px 0;
+  }
+  .responsive-table .col:before {
+    color: #6c7a89;
+    padding-right: 10px;
+    content: attr(data-label);
+    flex-basis: 50%;
+    text-align: right;
+  }
+}
+footer {
+  width: fit-content;
+  margin: 70px auto;
+  position: relative;
+  text-align: center;
+}
+footer button {
+  width: 70px;
+  height: 70px;
+  margin: 0;
+  padding: 20px;
+  border-radius: 35px;
+  font-size: 30px;
+}
+footer button:hover {
+  transform: scale(1.2);
+  filter: invert(1);
+}
+#h2 {
+  color: white;
+  font-weight: 900;
+  font-size: 24;
+}
+.navbar {
+  float: justify;
+}

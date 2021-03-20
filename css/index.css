@@ -1,0 +1,40 @@
+.gymname {
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  color: teal;
+  /* font-family:  cursive; */
+  animation: glow 1s ease-in-out infinite alternate;
+}
+footer {
+  width: fit-content;
+  margin: 70px auto;
+  position: relative;
+  text-align: center;
+}
+footer button {
+  width: 70px;
+  height: 70px;
+  margin: 0;
+  padding: 20px;
+  border-radius: 35px;
+  font-size: 30px;
+}
+footer button:hover {
+  transform: scale(1.2);
+  filter: invert(1);
+}
+#add {
+  padding: 12px;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #c2b9c2,
+      0 0 40px #757575, 0 0 40px #464545;
+  }
+  to {
+    text-shadow: none;
+  }
+}

@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "audiowide";
+  src: URL("Audiowide-Regular.ttf") format("truetype");
+}
+
+body {
+  /* background: url(../img/gymImg2.jpg); */
+  background-repeat: no-repeat;
+  /* background-size: 100% 120%; */
+  background-size: cover;
+  /* object-fit: fill; */
+  font-family: audiowide;
+  background-color: black;
+}
+.navbar .active {
+  color: rgb(255, 255, 255);
+  /* text-shadow:2px 2px 10px rgb(255, 255, 255); */
+  font-size: 30px;
+  text-shadow: 2px 2px 2px rgb(255, 255, 255);
+  cursor: pointer;
+}
+.navbar {
+  background-color: black;
+  /* border: 1px solid red; */
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  height: 90px;
+}
+.navbar img {
+  /* border: 5px solid red; */
+  filter: invert(1);
+  width: 80px;
+  height: 80px;
+  margin-left: 33px;
+}
+.navbar ul {
+  color: white;
+  /* text-decoration: none; */
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.navbar li {
+  display: inline;
+  font-size: 25px;
+  margin: 10px;
+  padding: 10px;
+}
+.navbar li:hover {
+  color: rgb(255, 255, 255);
+  /* text-shadow:2px 2px 10px rgb(255, 255, 255); */
+  font-size: 30px;
+  text-shadow: 2px 2px 2px rgb(255, 255, 255);
+  cursor: pointer;
+}
+.navbar a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+h2 {
+  float: center;
+  text-align: center;
+}
+
+.paginate_button previous disabled {
+  text-align: center;
+  margin-right: 5px;
+}
+.paginate_button current {
+  margin-right: 5px;
+}
+.paginate_button next disabled {
+  margin-right: 5px;
+}
+.paginate_button previous  {
+  text-align: center;
+  margin-right: 5px;
+}
+.paginate_button current {
+  margin-right: 5px;
+}
+.paginate_button previous enabled {
+  margin-right: 5px;
+}
+.paginate_button {
+  text-transform: uppercase;
+  margin-right: 15px;
+  padding-left: 15px;
+}
